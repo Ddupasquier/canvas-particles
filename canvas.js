@@ -5,29 +5,6 @@ canvas.height = window.innerHeight;
 
 const ctx = canvas.getContext('2d');
 
-// ctx.fillStyle = 'red';
-// ctx.fillRect(100, 100, 100, 100);
-// ctx.fillStyle = 'green';
-// ctx.fillRect(400, 100, 100, 100);
-// ctx.fillStyle = 'yellow';
-// ctx.fillRect(300, 300, 100, 100);
-
-// ctx.beginPath();
-// ctx.moveTo(50, 300);
-// ctx.lineTo(300, 100);
-// ctx.lineTo(400, 300);
-// ctx.strokeStyle = 'blue';
-// ctx.stroke();
-
-// for (let i = 0; i < 300; i++) {
-//   const x = Math.random() * window.innerWidth;
-//   const y = Math.random() * window.innerHeight;
-//   ctx.beginPath();
-//   ctx.arc(x, y, 30, 0, Math.PI * 2, false);
-//   ctx.strokeStyle = 'black';
-//   ctx.stroke();
-// }
-
 const mouse = {
   x: undefined,
   y: undefined,
